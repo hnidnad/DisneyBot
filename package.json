@@ -17,9 +17,6 @@
     "url": "https://github.com/DanDPanda/DisneyBot/issues"
   },
   "homepage": "https://github.com/DanDPanda/DisneyBot#readme",
-  "devDependencies": {
-    "jest": "^24.9.0"
-  },
   "dependencies": {
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0"
