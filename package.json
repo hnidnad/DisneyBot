@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DanDPanda/DisneyBot/issues"
   },
-  "homepage": "https://github.com/DanDPanda/DisneyBot#readme"
+  "homepage": "https://github.com/DanDPanda/DisneyBot#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
