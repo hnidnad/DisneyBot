@@ -1,0 +1,19 @@
+{
+  "name": "disneybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanDPanda/DisneyBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanDPanda/DisneyBot/issues"
+  },
+  "homepage": "https://github.com/DanDPanda/DisneyBot#readme"
+}
