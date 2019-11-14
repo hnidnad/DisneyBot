@@ -20,5 +20,23 @@
   "dependencies": {
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "coveragePathIgnorePatterns": [
+      "src/command-list.js",
+      "src/index.js"
+    ]
   }
 }

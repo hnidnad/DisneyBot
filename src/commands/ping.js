@@ -1,5 +1,3 @@
-const ping = message => {
-  message.channel.send("pong");
-};
+const ping = (message) => "pong";
 
 module.exports = ping;
