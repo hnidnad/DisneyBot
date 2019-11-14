@@ -18,7 +18,6 @@ client.on("ready", () => {
 
 // This reads the message and sends the appropriate command
 client.on("message", message => {
-    console.log(commandList)
     const response = commandList[message.content];
     if (response) {
         message.channel.send(response(message.content))
